@@ -37,13 +37,3 @@ def classify_triangle(aaa, bbb, ccc):
         else:
             return 'Isosceles Triangle'
 
-
-def main():
-    abe = float(input('Please enter side 1: '))
-    bsd = float(input('Please enter side 2: '))
-    cjk = float(input('Please enter side 3: '))
-    print(classify_triangle(abe, bsd, cjk))
-
-
-if __name__ == '__main__':
-    main()
