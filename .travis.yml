@@ -6,7 +6,7 @@ install:
 # command to run tests
 script:
  - python -m unittest TestTriangle
- - py.test tests/TestTriangle.py 
+ - py.test TestTriangle.py 
 
 after_success:
   - codecov
