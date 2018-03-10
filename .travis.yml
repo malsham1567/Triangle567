@@ -13,6 +13,9 @@ addons:
  token: 9286a04627e3d4231314b820f663f3199a777d84
  branches:
  - sonarcloud
+ sonarqube:
+ branches:
+ - sonarcloud
 
  
 # add the sonar-scanner command after all the other commands that you already have
