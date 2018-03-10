@@ -12,6 +12,7 @@ addons:
     organization: "team89-ssw567-triangle567"
     token: 9286a04627e3d4231314b820f663f3199a777d84
     branches:
+    - master
     - sonarcloud
   sonarqube:
     branches:
